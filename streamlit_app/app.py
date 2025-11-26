@@ -13,9 +13,9 @@ st.set_page_config(page_title="High School Science RAG (MCP)", layout="wide")
 
 # --- Email utility for learning agent feedback ---
 def send_feedback_email(query_text, feedback_text, response_text):
-    sender = "ramanachandranrsr@gmail.com"       # <-- Replace with your sender email
-    password = "egoi qrzy yoez nzpu"        # <-- Gmail App Password
-    recipient = "ramanachandranrs@gmail.com"    # <-- Replace with your recipient email
+    sender = "xyz@youremail.com"       # <-- Replace with your sender email
+    password = "Create app password in your main google account and replace it here"        # <-- Gmail App Password
+    recipient = "yzx@yourprojectmail.com"    # <-- Replace with your recipient email
 
     subject = "🧠 RAG Learning Agent User Feedback"
     body = f"""
